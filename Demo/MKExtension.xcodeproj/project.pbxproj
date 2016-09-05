@@ -13,6 +13,12 @@
 		B2A0B0231D7D3D9000338CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A0B0211D7D3D9000338CBB /* Main.storyboard */; };
 		B2A0B0251D7D3D9000338CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A0B0241D7D3D9000338CBB /* Assets.xcassets */; };
 		B2A0B0281D7D3D9000338CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A0B0261D7D3D9000338CBB /* LaunchScreen.storyboard */; };
+		B2A0B0321D7D3F2C00338CBB /* NSObject+SEL.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B0311D7D3F2C00338CBB /* NSObject+SEL.m */; };
+		B2A0B0351D7D3F4900338CBB /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B0341D7D3F4900338CBB /* UIView+Tap.m */; };
+		B2A0B0381D7D3F9E00338CBB /* UIButton+TapScope.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B0371D7D3F9E00338CBB /* UIButton+TapScope.m */; };
+		B2A0B03B1D7D456A00338CBB /* UIView+TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B03A1D7D456A00338CBB /* UIView+TapViewController.m */; };
+		B2A0B03E1D7D460F00338CBB /* NSObject+SELViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B03D1D7D460F00338CBB /* NSObject+SELViewController.m */; };
+		B2A0B0411D7D461900338CBB /* UIButton+TapScopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B0401D7D461900338CBB /* UIButton+TapScopeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		B2A0B0241D7D3D9000338CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A0B0271D7D3D9000338CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2A0B0291D7D3D9000338CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A0B0301D7D3F2C00338CBB /* NSObject+SEL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SEL.h"; sourceTree = "<group>"; };
+		B2A0B0311D7D3F2C00338CBB /* NSObject+SEL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SEL.m"; sourceTree = "<group>"; };
+		B2A0B0331D7D3F4900338CBB /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tap.h"; sourceTree = "<group>"; };
+		B2A0B0341D7D3F4900338CBB /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
+		B2A0B0361D7D3F9E00338CBB /* UIButton+TapScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TapScope.h"; sourceTree = "<group>"; };
+		B2A0B0371D7D3F9E00338CBB /* UIButton+TapScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TapScope.m"; sourceTree = "<group>"; };
+		B2A0B0391D7D456A00338CBB /* UIView+TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapViewController.h"; sourceTree = "<group>"; };
+		B2A0B03A1D7D456A00338CBB /* UIView+TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapViewController.m"; sourceTree = "<group>"; };
+		B2A0B03C1D7D460F00338CBB /* NSObject+SELViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SELViewController.h"; sourceTree = "<group>"; };
+		B2A0B03D1D7D460F00338CBB /* NSObject+SELViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SELViewController.m"; sourceTree = "<group>"; };
+		B2A0B03F1D7D461800338CBB /* UIButton+TapScopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TapScopeViewController.h"; sourceTree = "<group>"; };
+		B2A0B0401D7D461900338CBB /* UIButton+TapScopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TapScopeViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,17 @@
 		B2A0B0171D7D3D9000338CBB /* MKExtension */ = {
 			isa = PBXGroup;
 			children = (
+				B2A0B02F1D7D3F1200338CBB /* MKExtension */,
 				B2A0B01B1D7D3D9000338CBB /* AppDelegate.h */,
 				B2A0B01C1D7D3D9000338CBB /* AppDelegate.m */,
 				B2A0B01E1D7D3D9000338CBB /* ViewController.h */,
 				B2A0B01F1D7D3D9000338CBB /* ViewController.m */,
+				B2A0B0391D7D456A00338CBB /* UIView+TapViewController.h */,
+				B2A0B03A1D7D456A00338CBB /* UIView+TapViewController.m */,
+				B2A0B03C1D7D460F00338CBB /* NSObject+SELViewController.h */,
+				B2A0B03D1D7D460F00338CBB /* NSObject+SELViewController.m */,
+				B2A0B03F1D7D461800338CBB /* UIButton+TapScopeViewController.h */,
+				B2A0B0401D7D461900338CBB /* UIButton+TapScopeViewController.m */,
 				B2A0B0211D7D3D9000338CBB /* Main.storyboard */,
 				B2A0B0241D7D3D9000338CBB /* Assets.xcassets */,
 				B2A0B0261D7D3D9000338CBB /* LaunchScreen.storyboard */,
@@ -77,6 +102,20 @@
 				B2A0B0191D7D3D9000338CBB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A0B02F1D7D3F1200338CBB /* MKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B2A0B0331D7D3F4900338CBB /* UIView+Tap.h */,
+				B2A0B0341D7D3F4900338CBB /* UIView+Tap.m */,
+				B2A0B0301D7D3F2C00338CBB /* NSObject+SEL.h */,
+				B2A0B0311D7D3F2C00338CBB /* NSObject+SEL.m */,
+				B2A0B0361D7D3F9E00338CBB /* UIButton+TapScope.h */,
+				B2A0B0371D7D3F9E00338CBB /* UIButton+TapScope.m */,
+			);
+			name = MKExtension;
+			path = ../../MKExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A0B0381D7D3F9E00338CBB /* UIButton+TapScope.m in Sources */,
+				B2A0B0321D7D3F2C00338CBB /* NSObject+SEL.m in Sources */,
+				B2A0B0351D7D3F4900338CBB /* UIView+Tap.m in Sources */,
+				B2A0B03B1D7D456A00338CBB /* UIView+TapViewController.m in Sources */,
+				B2A0B0411D7D461900338CBB /* UIButton+TapScopeViewController.m in Sources */,
 				B2A0B0201D7D3D9000338CBB /* ViewController.m in Sources */,
+				B2A0B03E1D7D460F00338CBB /* NSObject+SELViewController.m in Sources */,
 				B2A0B01D1D7D3D9000338CBB /* AppDelegate.m in Sources */,
 				B2A0B01A1D7D3D9000338CBB /* main.m in Sources */,
 			);
@@ -300,6 +345,7 @@
 				B2A0B02E1D7D3D9000338CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
