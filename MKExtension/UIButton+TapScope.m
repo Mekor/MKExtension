@@ -9,7 +9,7 @@
 #import "UIButton+TapScope.h"
 #import <objc/runtime.h>
 
-static void * kHitEdgeInsetsKey = &kHitEdgeInsetsKey;
+static const void * kHitEdgeInsetsKey = &kHitEdgeInsetsKey;
 
 
 @implementation UIButton (TapScope)
