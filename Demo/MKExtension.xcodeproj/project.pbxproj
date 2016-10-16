@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22AD5311DB3CB560042C664 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = B22AD5301DB3CB560042C664 /* UIImage+Scale.m */; };
 		B2A0B01A1D7D3D9000338CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B0191D7D3D9000338CBB /* main.m */; };
 		B2A0B01D1D7D3D9000338CBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B01C1D7D3D9000338CBB /* AppDelegate.m */; };
 		B2A0B0201D7D3D9000338CBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B01F1D7D3D9000338CBB /* ViewController.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22AD52F1DB3CB560042C664 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		B22AD5301DB3CB560042C664 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		B2A0B0151D7D3D9000338CBB /* MKExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A0B0191D7D3D9000338CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2A0B01B1D7D3D9000338CBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				B2A0B0311D7D3F2C00338CBB /* NSObject+SEL.m */,
 				B2A0B0361D7D3F9E00338CBB /* UIButton+TapScope.h */,
 				B2A0B0371D7D3F9E00338CBB /* UIButton+TapScope.m */,
+				B22AD52F1DB3CB560042C664 /* UIImage+Scale.h */,
+				B22AD5301DB3CB560042C664 /* UIImage+Scale.m */,
 			);
 			name = MKExtension;
 			path = ../../MKExtension;
@@ -194,6 +199,7 @@
 				B2A0B03B1D7D456A00338CBB /* UIView+TapViewController.m in Sources */,
 				B2A0B0411D7D461900338CBB /* UIButton+TapScopeViewController.m in Sources */,
 				B2A0B0201D7D3D9000338CBB /* ViewController.m in Sources */,
+				B22AD5311DB3CB560042C664 /* UIImage+Scale.m in Sources */,
 				B2A0B03E1D7D460F00338CBB /* NSObject+SELViewController.m in Sources */,
 				B2A0B01D1D7D3D9000338CBB /* AppDelegate.m in Sources */,
 				B2A0B01A1D7D3D9000338CBB /* main.m in Sources */,
