@@ -7,7 +7,7 @@
 ##UIView+Tap
 为UIView添加点击事件.**注意:**是要实现点击方法默认`userInteractionEnabled = YES`
 ##UIButton+TapScope
-控制UIButton点击范围.
+控制UIButton点击范围
 
 #Extensions - Swift常用扩展
 
